@@ -1,5 +1,2 @@
 #!/bin/bash
-find . -type d ! -path . | WC -1
-
-
-i
+find . -type d -not -name '.' | wc -1
